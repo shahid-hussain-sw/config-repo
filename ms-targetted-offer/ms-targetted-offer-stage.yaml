@@ -1,0 +1,16 @@
+spring:
+  datasource:
+    url: jdbc:h2:mem:targettedofferdb
+    username: sa
+    password:
+    driverClassName: org.h2.Driver
+  h2:
+    console.enabled: false
+  jpa:
+    spring.jpa.database-platform: org.hibernate.dialect.H2Dialect
+
+management.endpoint.health.show-details: ALWAYS
+
+logging:
+  level:
+    com.targetted.offer: INFO
