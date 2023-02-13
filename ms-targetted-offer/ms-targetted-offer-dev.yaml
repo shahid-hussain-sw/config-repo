@@ -13,4 +13,4 @@ management.endpoint.health.show-details: ALWAYS
 
 logging:
   level:
-    com.targetted.offer: info
+    com.targetted.offer: debug
